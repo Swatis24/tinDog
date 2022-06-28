@@ -1,0 +1,177 @@
+body{
+	font-family:"Montserrat";
+	text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: "Montserrat-Bold";
+}
+p{
+	color: gray;
+	font-weight: bold;
+}
+
+/*Heading*/
+.big-heading{
+	font-family: "Montserrat-Black";
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: bold;
+}
+.section-heading{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/*Container */
+.container-fluid{
+	padding: 2% 15%;
+}
+
+/* Section*/
+.colored-section{
+	background-color: #ff4c68;
+	color: #fff;
+}
+.white-section{
+	background-color: #fff;
+}
+
+
+/*Navagation Bar*/
+.navbar{
+	padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-size: 2rem;
+	font-weight: bold;
+	color: #fff;
+}
+
+.nav-item{
+	padding: 0 15px;
+	
+}
+.nav-link{
+	font-size: 2.5;
+	font-family: "Montserrat";
+	color: #fff;
+	font-weight: bold;
+}
+
+/*Title Section*/
+#title{
+	text-align: left;
+}
+ #title.container-fluid{
+	padding: 3% 15% 7%;
+}
+
+/*Buttons*/
+.download-button{
+	margin: 5% 3% 5% 0;
+}
+.title-image{
+	width: 70%;
+	transform: rotate(10deg)
+
+}
+
+
+
+/*Features Section*/
+.feature-box{
+	padding: 5%;
+}
+.features-title{
+	font-size: 1.4rem;
+}
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+.icon:hover{
+	color: #ff4c68;
+}
+
+
+ /* <!-- Testimonials -->*/
+ .testimonial-image{
+ 	width: 15%;
+ 	border-radius: 100%;
+ 	margin: 20px;
+ }
+ .testimonial-text{
+ 	font-size: 3rem;
+	line-height: 1.5;
+ }
+ #press{
+ 	padding-bottom: 3%;
+ }
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px;
+
+}
+
+/* <!-- Pricing -->*/
+#pricing{
+	padding: 100px;
+}
+.pricing-column{
+	padding: 3% 2%;
+
+}
+.price-text{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/*<!-- Call to Action -->*/
+.cta-heading{
+	font-family: "Montserrat-Black";
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+.animate{
+	@keyframes example {
+  		from{ 
+  	color: white;}
+  to {color: yellow;}
+}
+}
+@media (max-width: 1028px){
+
+	#title{
+		text-align: center;
+	}
+
+	.title-image{
+		position: static;
+		transform: rotate(0deg);
+	}
+}
+
+/*Footer Section*/
+.social-icon{
+	margin: 20px 10px;
+}
+h4 {
+		color: transparent;
+        text-align: center;
+        animation: effect 2s linear infinite;
+    }
+@keyframes effect {
+        0% {
+            background: linear-gradient(
+                #A149FA, #001D6E);
+            -webkit-background-clip: text;
+        }
+ 
+        100% {
+            background: linear-gradient(
+                #3CE7D7, #000FFF);
+            -webkit-background-clip: text;
+        }
+    }
